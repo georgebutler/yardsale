@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+[DisallowMultipleComponent]
 [RequireComponent(typeof(CharacterController))]
 [RequireComponent(typeof(PlayerInput))]
 public class PlayerMovement : MonoBehaviour
